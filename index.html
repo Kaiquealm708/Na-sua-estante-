@@ -19,6 +19,7 @@
   <body>
     <header class="header">
       <div class="container">
+        <div class="overlay" data-overlay></div>
         <a href="index.html" class="logo">
           <img src="assets/img/logo.png" alt="logosite" />
         </a>
@@ -38,22 +39,20 @@
               <option value="ES">ES</option>
             </select>
           </div>
+          <button class="btn btn-primary">Entrar</button>
         </div>
 
-        <button class="btn btn-primary">Entrar</button>
-
-        <button class="btn-mobile">
+        <button class="btn-mobile" data-menu-open>
           <ion-icon name="menu-outline"></ion-icon>
         </button>
 
-        <nav class="navbar">
-
+        <nav class="navbar" data-navbar>
           <div class="navbar-top">
             <a href="index.html">
-              <img src="assets/img/logo.png" alt="logo" />
+              <img src="assets/img/logo.png" id="ilha" alt="logo" />
             </a>
 
-            <button class="menu-close">
+            <button class="menu-close" data-menu-close>
               <ion-icon name="close-outline"></ion-icon>
             </button>
           </div>
@@ -86,16 +85,15 @@
             </li>
 
             <li>
-              <a href="https://www.youtube.com/watch?v=DP3j6hgS4VY" class="navbar-social-link">
+              <a
+                href="https://www.youtube.com/watch?v=DP3j6hgS4VY"
+                class="navbar-social-link"
+              >
                 <ion-icon name="logo-youtube"></ion-icon>
               </a>
             </li>
-
           </ul>
         </nav>
-
-
-
       </div>
     </header>
 
